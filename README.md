@@ -1,8 +1,28 @@
 # `Shuffile Links` 📂
 
+---
+
+## SHUFFILE LINKS BUG 🐛
+Shuffile Links was supposed to be deployed on [Hack CLub's Nest](https://hackclub.app) but had encourtered issues with subdomain creation and docker-mongo conflicts. While the issue is being resolved, you can access this feature by:
+1. Clone this repo:
+```git clone https://github.com/raghav-karn/shuffile-links.git```
+
+2. Install npm packages:
+```npm install```
+
+3. Create a `.env` file in the root directory and add:
+```
+DATABASE_URL=mongodb://127.0.0.1/fileSharing
+PORT=3000
+```
+
+4. Run the server by opening `localhost:3000` on your browser
+
+---
+
 **Note**: Shuffile only supports desktop as of now.
 
-**Desclaimer**: This is a feature addon to the original project [**Shuffile**](https://github.com/raghav-karn/shuffile), maintaining a seperate repository to de-clutter Shuffile repository.
+**Disclaimer**: This is a feature addon to the original project [**Shuffile**](https://github.com/raghav-karn/shuffile), maintaining a seperate repository to de-clutter Shuffile repository.
 
 ## Overview ✨
 This is **Shuffile Links**, a feature added to [**Shuffile**](https://github.com/raghav-karn/shuffile) to generate and share password-protected files as links.
